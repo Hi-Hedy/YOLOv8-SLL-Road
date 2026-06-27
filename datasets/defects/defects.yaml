@@ -1,0 +1,12 @@
+# GPR B-scan defect detection dataset
+path: E:/anaconda/hl/datasets/0-datasets  # dataset root dir
+train: images/train
+val: images/val
+test: images/test  # optional
+
+nc: 4
+names:
+  0: Void         # internal cavity / air void
+  1: De           # delamination / debonding
+  2: Loose        # loose / uncompacted zone
+  3: WR           # water-rich / saturated zone
